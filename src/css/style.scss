@@ -19,3 +19,14 @@ p {
     padding: 1rem;
 }
 */
+:root {
+    font-size: 16px;
+}
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 80%;
+    margin: 0 auto;
+}

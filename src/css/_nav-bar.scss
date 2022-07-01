@@ -1,3 +1,5 @@
+-nav-bar.scss
+
 .nav-bar {
     background-color: rgb(196, 227, 255);
     &_list {
@@ -15,5 +17,32 @@
             max-width: 150px;
             margin-left: 1rem;
         }
+    }
+}
+
+.header {
+    background-color: red;
+    padding: 3rem 12rem;
+    color: white;
+    &--moto {
+        font-size: 2rem;
+        padding: 0.5rem 0;
+    }
+    &--nav {
+        padding: 0.5rem 0;
+        list-style-type: none;
+        &__inline {
+            display: inline;
+        }
+        &link {
+            color: white;
+            text-decoration: none;
+            padding: 0.4rem 0.8rem;
+            &__active {
+                background-color: green;
+                padding: 0.4rem 0.8rem;
+            }
+        }
+        
     }
 }

@@ -1,0 +1,43 @@
+main {
+    padding: 0 12rem;
+    border: 1px solid lightgrey;
+}
+
+details {
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    margin-bottom: 8rem;
+}
+
+summary{
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    &::marker {
+    content: "";
+    }
+    &::after {
+        content:" ↓"
+    }
+}
+
+table {
+    padding: 0.75rem 1.5rem;
+    width: 50%;
+}
+
+tr {
+    border-left: 1px solid lightgrey;
+}
+
+th {
+    text-align: left;
+}
+.grey {
+    background-color: lighten(lightgrey, 10%);
+    border:none;
+}
